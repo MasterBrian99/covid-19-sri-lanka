@@ -1,0 +1,30 @@
+{
+  "name": "covid-19-sri-lanka",
+  "version": "1.0.0",
+  "description": "sri lanka covid situation information",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasterBrian99/covid-19-sri-lanka.git"
+  },
+  "keywords": [
+    "covid19",
+    "srilanka",
+    "sl",
+    "situation"
+  ],
+  "author": "pasindu p konghawaththa <pasindudixon25@gmail.com> (https://github.com/MasterBrian99)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MasterBrian99/covid-19-sri-lanka/issues"
+  },
+  "homepage": "https://github.com/MasterBrian99/covid-19-sri-lanka#readme"
+}

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+  background-color: #140047;
+    color: #fff;
+  font-family: "Rubik", sans-serif;
+  /* font-family: 'Space Grotesk', sans-serif; */
+}
+
+/* .nav-div{
+    background-color: rgba(1, 255, 255, 1);
+     height: 100%;
+
+} */
+
+.home{
+  background-image: url('http://pixner.net/kapoha/assets/images/banner/02.png');
+
+}
+.nav-bar-main {
+  background-color: aqua;
+}
+.navbar-brand {
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+.nav-item {
+  font-size: 1.2rem;
+}
+nav .navbar-nav li a {
+  color: white !important;
+}
+.emergency-btn {
+  padding: 12px;
+  border-radius: 50px;
+  color: #fff;
+  border: 1px solid #232ace;
+  margin-left: 2rem;
+}
+.emergency-btn:hover {
+  background-color: #232ace;
+  transition: 500ms;    
+  color: #fff;
+}
+
+.main-img{
+    width: 50rem;
+}
+.maintext{
+  margin: 5% 0;
+  margin-left: 5%;
+
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10vw;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.details{
+    position: relative;
+    top: -5rem;
+    height: 400px;
+}
+.details-set{
+  padding: 4%;
+  background-color: #232ace;
+}
+
+
+/* media screen  */
+
+@media (max-width: 991px) {
+
+    .top-image{
+      display: none;
+    }
+    .maintext{
+      margin: 10% auto;
+
+    }
+    h1{
+      font-size: 5rem;
+    }
+    .details{
+      position: static;
+    }
+}
