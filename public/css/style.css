@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
 body {
   background-color: #140047;
-    color: #fff;
+  color: #fff;
   font-family: "Rubik", sans-serif;
   /* font-family: 'Space Grotesk', sans-serif; */
 }
@@ -15,8 +15,9 @@ body {
 
 } */
 
-.home{
-  background-image: url('http://pixner.net/kapoha/assets/images/banner/02.png');
+.home {
+  background-image: url("http://pixner.net/kapoha/assets/images/banner/02.png");
+
 
 }
 .nav-bar-main {
@@ -41,53 +42,125 @@ nav .navbar-nav li a {
 }
 .emergency-btn:hover {
   background-color: #232ace;
-  transition: 500ms;    
+  transition: 500ms;
   color: #fff;
 }
 
-.main-img{
-    width: 50rem;
+.main-img {
+  width: 55rem;
+  
 }
-.maintext{
-  margin: 5% 0;
-  margin-left: 5%;
+.maintext {
+margin: 10% auto 15%;
+}
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 10vw;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+  text-shadow:  40px 12px 6px rgba(0,0,0,0.42);
 
 }
-h1{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 10vw;
-    font-weight: 700;
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #fff;
+
+.details-set {
+  font-family: "Josefin Sans", sans-serif;
+  position: relative;
+  top: -7rem;
+  padding: 5%;
+  background: rgb(35,42,206);
+  background: linear-gradient(123deg, rgba(35,42,206,1) 0%, rgba(20,0,71,1) 100%);
+border-radius: 20px;
+-webkit-box-shadow: 0px 0px 45px 10px rgba(0,0,0,0.67); 
+box-shadow: 0px 0px 45px 10px rgba(0,0,0,0.67); 
+; 
 }
 
-.details{
-    position: relative;
-    top: -5rem;
-    height: 400px;
+h4 {
+  font-size: 1.5rem;
 }
-.details-set{
-  padding: 4%;
-  background-color: #232ace;
+
+h3 {
+  font-size: 3.4rem;
+  font-weight: 800;
+}
+
+.confirmed-cases{
+  color: #F8C033;
+  text-shadow: 0px 5px 10px rgba(183, 135, 66, 0.4);
+}
+.deaths{
+  color: #CC0000;
+  text-shadow: 0px 5px 10px rgba(204, 0, 0, 0.4);
+
+}
+
+.recovered{
+  color: #61CC00;
+  text-shadow: 0px 5px 10px rgba(97, 204, 0, 0.4);
+
 }
 
 
+
+
+
+
+.about-what{
+  color: #5EF7EC;
+}
+
+.about-main{
+  color: #fff; 
+  font-size: 2.5rem;
+
+}
+
+.about-side{
+  margin-top:8%;
+
+}
+
+.about-info{
+  line-height: 2;
+}
+
+
+/* Hospital Details  */
+
+.hostital-details-text{
+  margin: 10% auto;
+}
+
+th,td{
+  color: #fff;
+}
+
+.chart-div{
+  background-color: #fff;
+}
 /* media screen  */
 
 @media (max-width: 991px) {
+  .top-image {
+    display: none;
+  }
+  .maintext {
+    margin: 10% auto;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  .details-set {
+    position: static;
+  }
+}
 
-    .top-image{
-      display: none;
-    }
-    .maintext{
-      margin: 10% auto;
 
-    }
-    h1{
-      font-size: 5rem;
-    }
-    .details{
-      position: static;
-    }
+@media(max-width:767px){
+  .details-set {
+    margin: auto 2px;
+    margin-bottom: 15%;
+  }
 }

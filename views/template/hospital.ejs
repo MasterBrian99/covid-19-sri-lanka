@@ -1,0 +1,43 @@
+
+  <section class="hostital-details">
+
+
+    <div class="container">
+<h3 class="text-center hostital-details-text">Hostpital Details</h3>
+
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Cumulative Total</th>
+                <th scope="col">Treatment Total</th>
+              </tr>
+            </thead>
+            <tbody>
+             <%     hospital.forEach(element => { %> 
+                <tr>
+                    <th scope="row"><%= element.id %> </th>
+                    <td><%= element.hospital.name %> </td>
+                    <td><%= element.cumulative_total %> </td>
+                    <td><%= element.treatment_total %> </td>
+                </tr>
+
+                    <%     }); %> 
+
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+  
+  
+    </div>
+    <!-- hospital_id,name,cumulative_total,treatment_total -->
+
+  </section>
