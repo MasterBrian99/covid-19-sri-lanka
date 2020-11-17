@@ -12,13 +12,11 @@ let hospital={};
 getJSON('https://hpb.health.gov.lk/api/get-current-statistical', function(error, response) {
      api = response;
     if (api != null) {
-        console.log("api call completed....");
+       
         hospital=api.data.hospital_data;
 
 
-    } else{
-      console.log("Something Wrong !...");
-    }
+    } else;
 
 });
 
@@ -37,6 +35,6 @@ app.get("/", function(req, res){
   });
 });
 
-app.listen(3000, function(){
-  console.log("Server started on port 3000.");
+app.listen(process.env.PORT || 3000, function(){
+ 
 });
