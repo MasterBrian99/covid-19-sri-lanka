@@ -15,11 +15,7 @@ body {
 
 } */
 
-.home {
-  background-image: url("http://pixner.net/kapoha/assets/images/banner/02.png");
 
-
-}
 .nav-bar-main {
   background-color: aqua;
 }
@@ -102,11 +98,6 @@ h3 {
 
 }
 
-
-
-
-
-
 .about-what{
   color: #5EF7EC;
 }
@@ -137,9 +128,22 @@ th,td{
   color: #fff;
 }
 
-.chart-div{
-  background-color: #fff;
+.fa-heart{
+  color: #CC0000;
 }
+.usrname{
+  color: #fff;
+}
+.usrname:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+footer{
+  margin-bottom: 2%;
+
+}
+
 /* media screen  */
 
 @media (max-width: 991px) {
@@ -163,4 +167,10 @@ th,td{
     margin: auto 2px;
     margin-bottom: 15%;
   }
+
+
+  #myChart{
+    height: 1000px;
+
+}
 }
