@@ -1,7 +1,7 @@
 //jshint esversion:6
 const express = require("express");
 const ejs = require("ejs");
-const getJSON = require('get-json')
+const getJSON = require('get-json');
 const app = express();
 
 app.set('view engine', 'ejs');
@@ -11,7 +11,7 @@ let hospital={};
 // api call 
 getJSON('https://hpb.health.gov.lk/api/get-current-statistical', function(error, response) {
      api = response;
-    if (api != null) {
+    if (api !== null) {
        
         hospital=api.data.hospital_data;
 
